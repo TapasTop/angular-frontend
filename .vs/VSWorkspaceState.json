@@ -3,8 +3,11 @@
     "",
     "\\front",
     "\\front\\src",
-    "\\front\\src\\app"
+    "\\front\\src\\app",
+    "\\front\\src\\app\\home",
+    "\\front\\src\\app\\locales",
+    "\\front\\src\\assets"
   ],
-  "SelectedNode": "\\front",
+  "SelectedNode": "\\front\\src\\app\\locales\\locales.component.ts",
   "PreviewInSolutionExplorer": false
 }
