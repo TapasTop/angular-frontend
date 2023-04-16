@@ -1,4 +1,5 @@
-<div class="row">
+<body>
+<div class="row bg-mi-color">
   <div class="col-12">
     <h4>Mis Degustaciones</h4>
     <div id="tapas-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -8,11 +9,16 @@
           height: 320px;
           padding: 10px;
         }
-
-        #tapas-carousel .carousel-item {
-          background-color: #f0f0f0;
+        body {
+          padding-top: 0px;
         }
 
+        #tapas-carousel .carousel-item {
+          background: linear-gradient(to right,#F9D5E5, #FAD1A5, #FEE2C2, #C7CEEA, #F2E9D2);
+        }
+        .bg-mi-color {
+          background: linear-gradient(to right, #FFA69E, #FFC6A5, #FFE6A7, #B5EAD7, #C7CEEA);
+        }
         #tapas-carousel h4 {
           color: #444;
           font-size: 1.2rem;
@@ -128,4 +134,4 @@
     </div>
     </div>
   </div>
-
+  </body>
