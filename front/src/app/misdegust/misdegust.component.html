@@ -8,6 +8,44 @@
           height: 320px;
           padding: 10px;
         }
+
+        #tapas-carousel .carousel-item {
+          background-color: #f0f0f0;
+        }
+
+        #tapas-carousel h4 {
+          color: #444;
+          font-size: 1.2rem;
+          margin-top: 0.5rem;
+        }
+
+        #tapas-carousel .carousel-control-prev-icon, #tapas-carousel .carousel-control-next-icon {
+          color: #000;
+        }
+
+        #tapas-carousel .carousel-control-prev, #tapas-carousel .carousel-control-next {
+          background-color: rgba(255, 255, 255, 0.7);
+          border-radius: 50%;
+          width: 3rem;
+          height: 3rem;
+        }
+
+          #tapas-carousel .carousel-control-prev:hover, #tapas-carousel .carousel-control-next:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+          }
+
+        #tapas-carousel .carousel-indicators li {
+          background-color: #444;
+          border-color: #444;
+          border-radius: 50%;
+          width: 1rem;
+          height: 1rem;
+        }
+
+        #tapas-carousel .carousel-indicators .active {
+          background-color: #fff;
+          border-color: #444;
+        }
       </style>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -60,6 +98,33 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Siguiente</span>
       </button>
+      <style>
+        .carousel-control-prev,
+        .carousel-control-next {
+          transform: translateY(250%);
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+          background-color: #555;
+        }
+
+        .carousel-control-prev:hover,
+        .carousel-control-next:hover {
+          background-color: #ff0000;
+        }
+
+        .carousel-control-prev:focus,
+        .carousel-control-next:focus {
+          background-color: #000;
+          box-shadow: none;
+        }
+
+        .carousel-control-prev:disabled,
+        .carousel-control-next:disabled {
+          opacity: .5;
+          pointer-events: none;
+        }
+      </style>
     </div>
     </div>
   </div>
