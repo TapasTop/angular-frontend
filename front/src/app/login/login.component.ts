@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
-;
+  email : String | undefined ;
+  password : String | undefined;
 
   constructor() {}
 
