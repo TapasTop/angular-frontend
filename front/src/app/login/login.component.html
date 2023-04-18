@@ -25,17 +25,17 @@
   
                     <div class="form-outline mb-4">
                       <label class="form-label" for="form2Example11">Usuario</label>
-                      <input type="email"[(ngModel)]="email" id="form2Example11" class="form-control"
+                      <input type="email" [(ngModel)]="email" name="email" id="form2Example11" class="form-control"
                         placeholder="Introduce usuario o email" />
                     </div>
   
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form2Example22">Contraseña</label>
-                      <input type="password" [(ngModel)]="password"id="form2Example22" class="form-control" />
+                      <input type="password" [(ngModel)]="password" name ="password" id="form2Example22" class="form-control" />
                     </div>
   
                     <div class="text-center pt-1 mb-5 pb-1">
-                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button" routerLink="/home">Login</button>
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button" (click)="login()">Login</button>
                       <a class="text-muted" href="#!">¿Olvidaste la contraseña?</a>
                     </div>
   
