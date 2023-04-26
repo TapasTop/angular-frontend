@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LocalesComponent } from './locales/locales.component';
 import { MisdegustComponent } from './misdegust/misdegust.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { ProfileinfoComponent } from './profileinfo/profileinfo.component';
+import { DegustacionesComponent } from './degustaciones/degustaciones.component';
+import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { MisdegustComponent } from './misdegust/misdegust.component';
     HomeComponent,
     NavbarComponent,
     LocalesComponent,
-    MisdegustComponent
+    MisdegustComponent,
+    PerfilComponent,
+    ProfileinfoComponent,
+    DegustacionesComponent,
+    EstadisticasComponent
   ],
   imports: [
     BrowserModule,
